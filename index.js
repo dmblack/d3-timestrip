@@ -1,1 +1,1 @@
-export {default as timeStrip} from "./src/d3-timestrip";
+export { timeStrip } from "./src/d3-timestrip";
