@@ -1,5 +1,6 @@
 const globals = {
-    d3: 'd3'
+    d3: 'd3',
+    lodash: '_'
 };
 
 export default {
