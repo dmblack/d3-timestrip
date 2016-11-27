@@ -1,7 +1,7 @@
 {
   "name": "d3-timestrip",
   "version": "0.0.1",
-  "description": "{DESCRIPTION}",
+  "description": "A simple time strip plugin for d3.",
   "keywords": [
     "d3",
     "d3-module"
@@ -9,10 +9,10 @@
   "license": "BSD-3-Clause",
   "main": "build/d3-timestrip.js",
   "jsnext:main": "index",
-  "homepage": "https://github.com/{USERNAME}/d3-timestrip",
+  "homepage": "https://github.com/wbercx/d3-timestrip",
   "repository": {
     "type": "git",
-    "url": "https://github.com/{USERNAME}/d3-timestrip.git"
+    "url": "https://github.com/wbercx/d3-timestrip.git"
   },
   "scripts": {
     "pretest": "rm -rf build && mkdir build && rollup -f umd -n d3 -o build/d3-timestrip.js -- index.js",
@@ -21,7 +21,7 @@
     "postpublish": "zip -j build/d3-timestrip.zip -- LICENSE README.md build/d3-timestrip.js build/d3-timestrip.min.js"
   },
   "devDependencies": {
-    "rollup": "0.27",
+    "rollup": "0.36.4",
     "tape": "4",
     "uglify-js": "2"
   }
