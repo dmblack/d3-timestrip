@@ -1,7 +1,12 @@
+import { getXScale } from './x-axis';
+
 export function timeStrip() {
-  var tl = {};
+  function strip(selection) {
+    let data = selection.datum();
+    console.log(data);
+  }
 
-  console.log(arguments);
+  console.log(getXScale());
 
-  return tl;
+  return strip;
 };
