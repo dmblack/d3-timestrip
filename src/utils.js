@@ -1,7 +1,4 @@
-import { flatten } from 'lodash';
-
 export function getMin(data, key) {
-    console.log(flatten);
     return d3.min(data, function (d) {
         return d[key];
     });
