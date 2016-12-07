@@ -1,4 +1,4 @@
-import { flatten } from 'lodash/flatten';
+import { flatten } from 'lodash';
 
 export function getMin(data, key) {
     console.log(flatten);

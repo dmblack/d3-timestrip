@@ -22,3 +22,7 @@ export function timeStrip() {
 
   return strip;
 };
+
+export default function() {
+  return 42;
+};
